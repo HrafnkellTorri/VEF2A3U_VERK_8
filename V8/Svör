@@ -1,0 +1,54 @@
+1.	
+	for Lykkja getur verið notuð til að gera basic vinslu í t.d í gegnum nokkur stök.
+	
+	foreach getur verið notað til þess að fara í gegnum array.
+
+	for-of getur verið notað til að far í gegnum söfn t.d map og arguments.
+	
+	for-in getur verið notað til að fara í gegnum properties og objects.
+
+2.
+	
+	Var divs = document.getElementsByTagName('div');	
+	For (var i = 0, div; div = divs[i]; i++) {
+	div[i] = div[i] + 'w';
+	}
+
+3.
+	
+	Það er notað til þess að sameina tvær línur af kóða og sameina í eina línu.
+	
+	console.log('string text line 1\n' +
+	'string text line 2');
+
+	notað er ' til þess að skilgreina template literals.
+
+4.
+	var mapp = new Map();
+
+	mapp.set(keyString, "'aðalstrengur'");
+	mapp.set(keyObj, 'aðalobject');
+	mapp.set(keyFunc, 'aðalfall');
+
+5. klassar í javascript eru "Sérstök föll". klassar og prototypes á mjög svipaðan hátt.
+
+6. Það gerir global breytur að local breytum. svipað og let gerir.
+	
+	function myclosureFunction() {
+    	var a = 4;
+    	return a * a;
+	}
+	myclosureFunction();
+
+	
+7. local array með breytum. Hægt er að asigna breytur í hvert argument.
+
+arguments[1] = 'hæ';
+console.log(arguments[1]);
+
+ OUTPUT : hæ
+
+8. bind er notað til að gera nýtt function og this verður return gildi functionsins.
+
+
+9. passar að allt sé keyrt í röð.
